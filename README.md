@@ -29,7 +29,6 @@ mlm-venv\Scripts\activate.bat
 ```bash
 
 - Используйте pip чтобы установить зависимости
-```bash
 pip install -r requirements.txt
 ```
 
