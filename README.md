@@ -23,15 +23,10 @@ cd modeling-algebraic-structures
 
 - Создайте и активируйте виртуальное окружение Python
 ```bash
-# Windows
 python -m venv mlm-venv
 mlm-venv\Scripts\activate.bat
 ```
 ```bash
-# Linux:
-python -m venv mlm-venv
-source ./mlm-venv/bin/activate
-```
 
 - Use pip to install dependencies
 ```bash
