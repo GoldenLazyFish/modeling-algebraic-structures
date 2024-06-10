@@ -20,6 +20,7 @@
 git clone https://github.com/GoldenLazyFish/modeling-algebraic-structures.git
 cd modeling-algebraic-structures
 ```
+```bash
 
 - Создайте и активируйте виртуальное окружение Python
 ```bash
