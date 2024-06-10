@@ -28,7 +28,7 @@ mlm-venv\Scripts\activate.bat
 ```
 ```bash
 
-- Use pip to install dependencies
+- Используйте pip чтобы установить зависимости
 ```bash
 pip install -r requirements.txt
 ```
