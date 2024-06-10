@@ -24,7 +24,7 @@ cd modeling-algebraic-structures
 - Создайте и активируйте виртуальное окружение Python
 ```bash
 python -m venv mlm-venv
-mlm-venv\Scripts\activate.bat
+mas-venv\Scripts\activate.bat
 ```
 ```bash
 
