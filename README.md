@@ -1,10 +1,10 @@
 # modeling-algebraic-structures
 
-# music-lyrics-matching
+Приложение позволяет построить, модифицировать и визуализировать алгебраические структуры.
 
-App, which retrieves synchronized lyrics from *.mp3*. Output is [*.LRC-file*](https://en.wikipedia.org/wiki/LRC_(file_format)) - lyrics + timestamps.
+Приложение использует следующее програмное обеспечение:
+- PyQT6 для графического интерфейса
+- PostgreSQL как базу данных для приложения
 
-App uses such libs as:
-- PyQT6 for graphical interface
-- SQLite for local database 
-- pydub and librosa for operations with audio 
+
+
