@@ -20,7 +20,6 @@
 git clone https://github.com/GoldenLazyFish/modeling-algebraic-structures.git
 cd modeling-algebraic-structures
 ```
-```bash
 
 - Создайте и активируйте виртуальное окружение Python
 ```bash
@@ -29,6 +28,15 @@ python -m venv mlm-venv
 mlm-venv\Scripts\activate.bat
 ```
 ```bash
+# Linux:
+python -m venv mlm-venv
+source ./mlm-venv/bin/activate
+```
+
+- Use pip to install dependencies
+```bash
+pip install -r requirements.txt
+```
 
 
 ## Использование
