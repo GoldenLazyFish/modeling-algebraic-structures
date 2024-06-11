@@ -32,6 +32,8 @@ mas-venv\Scripts\activate.bat
 pip install -r requirements.txt
 ```
 
+- Добавьте файл credentials.py в папку и введите туда данные от базы данных
+
 
 ## Использование
 
