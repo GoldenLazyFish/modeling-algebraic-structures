@@ -23,14 +23,12 @@ cd modeling-algebraic-structures
 
 - Создайте и активируйте виртуальное окружение Python
 ```bash
-python -m venv mlm-venv
+python -m venv mas-venv
 mas-venv\Scripts\activate.bat
 ```
 
 - Используйте pip чтобы установить зависимости
 ```bash
-
-
 pip install -r requirements.txt
 ```
 
@@ -39,14 +37,16 @@ pip install -r requirements.txt
 
 - Запустите приложение
 ```bash
-python diplom/main.py
+python src/App.py
 ```
 
 
 ## Структура
 
 Репозиторий состоит из: 
-- **Diplom** - файлы кода
-  - *main.py* - программа
+- **src** - файлы кода
+  - *App.py* - класс приложения
+  - *AdjasencyMatrixProcessing.py* - класс обработки матрицы смежности
+  - *DB.py* - файл коммуникации с базой данных
 - *README.md* - этот файл
 
