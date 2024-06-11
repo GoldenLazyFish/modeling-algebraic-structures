@@ -107,7 +107,7 @@ class MatrixApp(QMainWindow):
         # filling layout
         for i in range(self.processing.size):
             for j in range(self.processing.size):
-                entry = QLineEdit(str(self.processing.matrix[i, j]))
+                entry = QLineEdit(str(int(self.processing.matrix[i, j])))
                 self.matrix_layout.addWidget(entry, i, j)
 
     def on_clicked_button_create_matrix(self) -> None:
@@ -122,6 +122,7 @@ class MatrixApp(QMainWindow):
 
 
     def on_clicked_button_create_graph(self) -> None:
+        self.update_matrix()
         buf = self.processing.create_graph()
 
         # Display the graph in the QLabel
@@ -139,7 +140,7 @@ class MatrixApp(QMainWindow):
             row = []
             for j in range(self.processing.size):
                 widget = self.matrix_layout.itemAtPosition(i, j).widget()
-                value = float(widget.text())
+                value = int(widget.text())
                 row.append(value)
             matrix_values.append(row)
         self.processing.matrix = np.array(matrix_values)
@@ -158,7 +159,6 @@ class MatrixApp(QMainWindow):
         self.update_matrix()
         self.processing.create_point()
         self.display_matrix()
-
 
     def on_clicked_button_add_element(self) -> None:
         self.update_matrix()

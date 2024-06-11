@@ -17,7 +17,7 @@ class AdjasencyMatrixProcessing:
         graph = nx.Graph()
         for i in range(self.size):
             for j in range(self.size):
-                weight = float(self.matrix[i][j])
+                weight = int(self.matrix[i][j])
                 if weight != 0:
                     graph.add_edge(i, j)
 
